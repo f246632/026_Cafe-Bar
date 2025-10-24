@@ -1,0 +1,489 @@
+/* ============================================
+   RESPONSIVE STYLES
+   KAFFEE.BAR Website
+   ============================================ */
+
+/* ============================================
+   TABLET DEVICES (768px and below)
+   ============================================ */
+@media (max-width: 768px) {
+  /* Typography adjustments */
+  html {
+    font-size: 15px;
+  }
+
+  .lead {
+    font-size: 1.1rem;
+  }
+
+  /* Navigation */
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 70px;
+    left: -100%;
+    flex-direction: column;
+    background: var(--bg-white);
+    width: 100%;
+    padding: 2rem;
+    box-shadow: var(--shadow-lg);
+    transition: left 0.3s ease;
+    gap: 1.5rem;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  /* Hero section */
+  .hero {
+    min-height: 500px;
+    background-attachment: scroll;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-buttons .btn {
+    width: 100%;
+  }
+
+  /* Spacing adjustments */
+  :root {
+    --spacing-lg: 3rem;
+    --spacing-xl: 4rem;
+  }
+
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
+
+  /* About section */
+  .features-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: var(--spacing-sm);
+  }
+
+  /* Menu section */
+  .menu-category {
+    padding: var(--spacing-md);
+  }
+
+  .menu-item-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  /* Gallery */
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--spacing-sm);
+  }
+
+  /* Reviews */
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Location */
+  .location-content {
+    grid-template-columns: 1fr;
+  }
+
+  .location-map {
+    min-height: 350px;
+  }
+
+  /* Contact */
+  .contact-content {
+    grid-template-columns: 1fr;
+  }
+
+  /* Footer */
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  /* Lightbox */
+  .lightbox-prev,
+  .lightbox-next {
+    font-size: 1.5rem;
+    padding: 0.75rem;
+  }
+
+  .lightbox-close {
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+  }
+}
+
+/* ============================================
+   MOBILE DEVICES (480px and below)
+   ============================================ */
+@media (max-width: 480px) {
+  /* Typography */
+  html {
+    font-size: 14px;
+  }
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.4rem; }
+
+  /* Navigation */
+  .nav-container {
+    padding: 1rem;
+  }
+
+  .nav-logo {
+    font-size: 1.3rem;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: 450px;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero-tagline {
+    font-size: 1rem;
+  }
+
+  .scroll-indicator {
+    bottom: 20px;
+  }
+
+  /* Buttons */
+  .btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  /* Spacing */
+  :root {
+    --spacing-md: 1.5rem;
+    --spacing-lg: 2rem;
+    --spacing-xl: 3rem;
+  }
+
+  .section-header {
+    margin-bottom: var(--spacing-md);
+  }
+
+  /* Features */
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-icon {
+    font-size: 2.5rem;
+  }
+
+  /* Menu */
+  .menu-category h3 {
+    font-size: 1.5rem;
+  }
+
+  .menu-item {
+    padding: var(--spacing-sm);
+  }
+
+  .menu-item-name {
+    font-size: 1rem;
+  }
+
+  .menu-item-price {
+    font-size: 1rem;
+  }
+
+  .menu-item-description {
+    font-size: 0.9rem;
+  }
+
+  /* Gallery */
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+
+  .gallery-icon {
+    font-size: 2rem;
+  }
+
+  /* Reviews */
+  .rating-score .score {
+    font-size: 2.5rem;
+  }
+
+  .stars {
+    font-size: 1.3rem;
+  }
+
+  .review-card {
+    padding: var(--spacing-sm);
+  }
+
+  /* Location */
+  .location-map {
+    min-height: 300px;
+  }
+
+  .info-card,
+  .contact-card {
+    padding: var(--spacing-sm);
+  }
+
+  /* Contact */
+  .contact-form-container {
+    padding: var(--spacing-md);
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 0.875rem;
+    font-size: 0.95rem;
+  }
+
+  .contact-icon {
+    font-size: 2rem;
+  }
+
+  /* Footer */
+  .footer {
+    padding: var(--spacing-md) 0;
+  }
+
+  .footer-content {
+    gap: var(--spacing-sm);
+  }
+
+  /* Lightbox */
+  .lightbox-image {
+    max-width: 95vw;
+    max-height: 85vh;
+  }
+
+  .lightbox-prev {
+    left: 10px;
+  }
+
+  .lightbox-next {
+    right: 10px;
+  }
+
+  .lightbox-close {
+    top: 10px;
+    right: 10px;
+  }
+}
+
+/* ============================================
+   LARGE DESKTOP (1400px and above)
+   ============================================ */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+
+  .hero-content {
+    max-width: 1000px;
+  }
+
+  .section-header {
+    margin-bottom: 5rem;
+  }
+
+  .features-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ============================================
+   ULTRA-WIDE DISPLAYS (1920px and above)
+   ============================================ */
+@media (min-width: 1920px) {
+  html {
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 1600px;
+  }
+}
+
+/* ============================================
+   TOUCH DEVICE OPTIMIZATIONS
+   ============================================ */
+@media (hover: none) and (pointer: coarse) {
+  /* Larger touch targets */
+  .btn {
+    min-height: 48px;
+    padding: 1rem 2rem;
+  }
+
+  .nav-link {
+    padding: 1rem 0;
+  }
+
+  /* Remove hover effects on touch devices */
+  .feature-item:hover,
+  .menu-item:hover,
+  .review-card:hover,
+  .contact-card:hover {
+    transform: none;
+  }
+
+  /* Gallery touch optimization */
+  .gallery-overlay {
+    opacity: 0.5;
+  }
+
+  .gallery-item:active .gallery-overlay {
+    opacity: 1;
+  }
+}
+
+/* ============================================
+   REDUCED MOTION
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .hero {
+    background-attachment: scroll;
+  }
+}
+
+/* ============================================
+   HIGH CONTRAST MODE
+   ============================================ */
+@media (prefers-contrast: high) {
+  :root {
+    --text-light: #333333;
+    --border-color: #000000;
+  }
+
+  .btn-secondary {
+    border-width: 3px;
+  }
+
+  .nav-link::after {
+    height: 3px;
+  }
+}
+
+/* ============================================
+   PRINT STYLES
+   ============================================ */
+@media print {
+  /* Hide non-essential elements */
+  .navbar,
+  .hero-buttons,
+  .scroll-indicator,
+  .gallery-overlay,
+  .contact-form,
+  .lightbox,
+  .nav-toggle {
+    display: none !important;
+  }
+
+  /* Optimize for printing */
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  /* Page breaks */
+  section {
+    page-break-inside: avoid;
+  }
+
+  h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Show URLs for links */
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: #666;
+  }
+
+  /* Optimize images */
+  img {
+    max-width: 100% !important;
+    page-break-inside: avoid;
+  }
+}
+
+/* ============================================
+   LANDSCAPE ORIENTATION
+   ============================================ */
+@media (max-width: 768px) and (orientation: landscape) {
+  .hero {
+    min-height: 400px;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    margin-top: var(--spacing-sm);
+  }
+
+  .scroll-indicator {
+    display: none;
+  }
+}
+
+/* ============================================
+   DARK MODE SUPPORT
+   ============================================ */
+@media (prefers-color-scheme: dark) {
+  /* Optional: Add dark mode styles here if desired */
+  /* Currently using warm, light theme that works well in all conditions */
+}

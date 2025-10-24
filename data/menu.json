@@ -1,0 +1,147 @@
+{
+  "categories": [
+    {
+      "name": "Breakfast Classics",
+      "description": "All-day breakfast favorites",
+      "items": [
+        {
+          "name": "French Toast",
+          "description": "Classic French toast with seasonal fruits and maple syrup",
+          "price": "€9.50",
+          "dietary": ["vegetarian"]
+        },
+        {
+          "name": "Eggs Benedict",
+          "description": "Poached eggs on English muffin with hollandaise sauce",
+          "price": "€11.90"
+        },
+        {
+          "name": "Vollkornbrot mit Avocado",
+          "description": "Whole grain bread with fresh avocado, seasonal vegetables",
+          "price": "€10.50",
+          "dietary": ["vegan", "healthy"]
+        },
+        {
+          "name": "House-Cured Salmon",
+          "description": "Homemade cured salmon with cream cheese and capers",
+          "price": "€13.90"
+        },
+        {
+          "name": "Roast Beef Special",
+          "description": "Tender roast beef with horseradish cream and greens",
+          "price": "€12.50"
+        }
+      ]
+    },
+    {
+      "name": "Coffee & Specialties",
+      "description": "Freshly roasted weekly in Berlin",
+      "items": [
+        {
+          "name": "Espresso",
+          "description": "Rich, aromatic espresso from premium Berlin-roasted beans",
+          "price": "€2.80"
+        },
+        {
+          "name": "Cappuccino",
+          "description": "Classic cappuccino with silky milk foam",
+          "price": "€3.90"
+        },
+        {
+          "name": "Flat White",
+          "description": "Smooth espresso with velvety microfoam",
+          "price": "€4.20"
+        },
+        {
+          "name": "Latte Macchiato",
+          "description": "Layered espresso and steamed milk",
+          "price": "€4.50"
+        },
+        {
+          "name": "Filter Coffee",
+          "description": "Pour-over coffee from single-origin beans",
+          "price": "€3.50"
+        }
+      ]
+    },
+    {
+      "name": "Bowls & Salads",
+      "description": "Fresh and healthy options",
+      "items": [
+        {
+          "name": "Breakfast Bowl",
+          "description": "Fresh seasonal bowl with granola, fruits, and yogurt",
+          "price": "€9.90",
+          "dietary": ["vegetarian", "gluten-free"]
+        },
+        {
+          "name": "Fresh Salad Bowl",
+          "description": "Mixed greens with seasonal vegetables and house dressing",
+          "price": "€11.50",
+          "dietary": ["vegan", "gluten-free"]
+        },
+        {
+          "name": "Avocado Bowl",
+          "description": "Quinoa, avocado, vegetables, and tahini dressing",
+          "price": "€12.90",
+          "dietary": ["vegan", "healthy"]
+        }
+      ]
+    },
+    {
+      "name": "Sweet Treats",
+      "description": "Homemade mini cakes and pastries",
+      "items": [
+        {
+          "name": "Knusprige Bacon Croissant",
+          "description": "Crispy bacon in a buttery French croissant",
+          "price": "€5.90"
+        },
+        {
+          "name": "Plain Croissant",
+          "description": "Classic buttery French croissant",
+          "price": "€3.50",
+          "dietary": ["vegetarian"]
+        },
+        {
+          "name": "Mini Cakes",
+          "description": "Daily selection of homemade mini cakes",
+          "price": "€4.90",
+          "dietary": ["vegetarian"]
+        },
+        {
+          "name": "Cupcakes",
+          "description": "Seasonal cupcake varieties",
+          "price": "€4.50",
+          "dietary": ["vegetarian"]
+        }
+      ]
+    },
+    {
+      "name": "Drinks & Bar",
+      "description": "Classic wines and cocktails",
+      "items": [
+        {
+          "name": "Aperol Spritz",
+          "description": "Classic Italian aperitif",
+          "price": "€8.50"
+        },
+        {
+          "name": "Gin Tonic",
+          "description": "Premium gin with tonic and botanicals",
+          "price": "€9.50"
+        },
+        {
+          "name": "Cava",
+          "description": "Spanish sparkling wine",
+          "price": "€6.50"
+        },
+        {
+          "name": "House Wine",
+          "description": "Selection of red, white, and rosé",
+          "price": "€5.50"
+        }
+      ]
+    }
+  ]
+}

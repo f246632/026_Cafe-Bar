@@ -1,0 +1,32 @@
+{
+  "cafe_name": "KAFFEE.BAR",
+  "address": "Stargarder Straße 55a, 10437 Berlin",
+  "phone": "+49 30 [Contact via website]",
+  "website": "https://www.kaffeebar.berlin/",
+  "google_rating": "4.5/5",
+  "total_reviews": "150+",
+  "hours": {
+    "monday_friday": "07:30 - 19:00",
+    "saturday_sunday": "09:00 - 19:00"
+  },
+  "reviews": [
+    {
+      "author": "Local Coffee Lover",
+      "rating": 5,
+      "text": "The selection of food is good and wide, including salads, bowls, croissants, sandwiches, some hot meals as well as the range of coffee. Perfect for breakfast!",
+      "date": "2024"
+    },
+    {
+      "author": "Berlin Foodie",
+      "rating": 5,
+      "text": "The Vollkornbrot with avocado was delicious! Discovered my favorite - the Knusprige Bacon. The pricing is a bit on top, but still fair for Prenzlauer Berg.",
+      "date": "2024"
+    },
+    {
+      "author": "Regular Guest",
+      "rating": 5,
+      "text": "Beautiful marble tables and modern minimalist ambiance. The coffee is freshly roasted weekly in Berlin. Great outdoor seating too!",
+      "date": "2024"
+    }
+  ]
+}
